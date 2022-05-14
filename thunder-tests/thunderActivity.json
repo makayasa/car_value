@@ -1,0 +1,177 @@
+[
+  {
+    "_id": "f10ee46d-0f9f-4904-85b8-78772496b1e4",
+    "colId": "history",
+    "containerId": "",
+    "name": "signUp",
+    "url": "http://localhost:3000/auth/signup",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-05-12T15:43:53.856Z",
+    "modified": "2022-05-13T09:49:20.287Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"email\":\"qq@qq.com\",\n    \"password\":\"asd1@1\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "15e4b7b1-d366-4dfd-9f03-6be2648ae342",
+    "colId": "history",
+    "containerId": "",
+    "name": "update",
+    "url": "http://localhost:3000/auth/db3acf8b-7bc2-4a4e-aa23-14e8df7b7bc0",
+    "method": "PATCH",
+    "sortNum": 0,
+    "created": "2022-05-12T15:43:53.856Z",
+    "modified": "2022-05-13T06:29:22.648Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n   \"email\":\"rifkymakayasa212@gmail.com\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "e9935e9e-9237-40f2-80a8-9d3fd56e04d1",
+    "colId": "history",
+    "containerId": "",
+    "name": "findAll",
+    "url": "http://localhost:3000/auth/findAll",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-05-12T15:43:53.856Z",
+    "modified": "2022-05-13T09:43:14.397Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"email\":\"a@a.com\",\n    \"password\":\"asd\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "696ba07c-0faa-4516-8f09-4344972ffec8",
+    "colId": "history",
+    "containerId": "",
+    "name": "delete",
+    "url": "http://localhost:3000/auth?email=makayasa",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2022-05-12T15:43:53.856Z",
+    "modified": "2022-05-13T04:39:55.178Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "params": [
+      {
+        "name": "email",
+        "value": "makayasa",
+        "isPath": false
+      }
+    ],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"email\":\"a@a.com\",\n    \"password\":\"asd\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "a9c9579a-38fb-4ec5-81d8-84df99b76179",
+    "colId": "history",
+    "containerId": "",
+    "name": "findOne",
+    "url": "http://localhost:3000/auth/3aa5fb55-ac2d-40da-97ed-5ed04fd367f2",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-05-12T15:43:53.856Z",
+    "modified": "2022-05-13T09:43:13.553Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "e37f1b47-3e62-4673-be10-31da51e4dd9a",
+    "colId": "history",
+    "containerId": "",
+    "name": "signIn",
+    "url": "http://localhost:3000/auth/signin",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-05-12T15:43:53.856Z",
+    "modified": "2022-05-13T09:51:29.402Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"email\":\"qq@qq.com\",\n    \"password\":\"asd1@1\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "a818c789-1feb-49b2-9818-b679360ee0fd",
+    "colId": "history",
+    "containerId": "",
+    "name": "find by email",
+    "url": "http://localhost:3000/auth?email=makayasa@ozip.co.id",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-05-12T15:43:53.856Z",
+    "modified": "2022-05-13T09:43:12.870Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "params": [
+      {
+        "name": "email",
+        "value": "makayasa@ozip.co.id",
+        "isPath": false
+      }
+    ],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"email\":\"a@a.com\",\n    \"password\":\"asd\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
